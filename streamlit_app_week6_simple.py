@@ -15,7 +15,7 @@ import pickle                            # loads the saved machine learning mode
 st.title("📦 Delivery Time Predictor")                              #Title for app
 
 # Loads model
-model_data = pickle.load(open("simple_week6_voting_model.pkl", "rb"))
+model_data=pickle.load(open("simple_week6_voting_model.pkl", "rb"))
 model = model_data["model"]
 features = model_data["features"]
 
